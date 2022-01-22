@@ -1,0 +1,67 @@
+.header{
+  padding: 50px 0 0;
+  background: wheat;
+  &__navbar{
+    display: flex;
+  }
+  &__logo{
+    margin-right: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: $orange;
+    cursor: pointer;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 55px;
+    &-menu{
+      display: flex;
+      list-style-type: none;
+      margin-left: 279px;
+      column-gap: 55px;
+    }
+    &-list{
+      text-decoration: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &-link{
+      text-decoration: none;
+      color: #363853;
+      &:hover{
+        color: $orange;
+      }
+    }
+    &-btn{
+      background: #FF7A50;
+      width: 120px;
+      height: 50px;
+      box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+      border-radius: 5px;
+      border: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 14px 27px;
+      cursor: pointer;
+    }
+  }
+}

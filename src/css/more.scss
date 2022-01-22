@@ -1,0 +1,72 @@
+.more{
+  padding: 101px 0 0;
+  background: wheat;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__left{
+    margin-left: 137px;
+  }
+  &__title{
+    margin-top: 114px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #363853;
+    &-text{
+      color: $orange;
+    }
+  }
+  &__subtitle{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+  }
+  &__item{
+    margin-top: 14px;
+    display: flex;
+    column-gap: 26px;
+    &-title{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #363853;
+    }
+    &-svg{
+      position: relative;
+      margin-right: 10px;
+    }
+    &-vg{
+      position: absolute;
+      margin-left: 8px;
+    }
+    &-svg2{
+      margin-right: 7px;
+    }
+  }
+  &__btn{
+    margin-top: 52px;
+    width: 176px;
+    height: 58px;
+    background: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+}

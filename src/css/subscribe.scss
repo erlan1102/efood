@@ -1,0 +1,71 @@
+.subscribe{
+  padding: 125px 0 0;
+  background: wheat;
+  &__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 334px;
+    background: $orange;
+    border-radius: 20px;
+  }
+  &__title{
+    padding: 59px 0 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  &__form{
+    display: flex;
+    align-items: center;
+    width: 838px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+    border: none;
+    &-email{
+      padding-left: 43px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      color: #363853;
+    }
+    &-btn{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 8px;
+      width: 191px;
+      height: 58px;
+      margin-left: 640px;
+      background: #FF7A50;
+      border-radius: 70px;
+      border: none;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 30px;
+      text-align: center;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+  &__label{
+    position: relative;
+  }
+}

@@ -1,0 +1,56 @@
+.mobile-app{
+  padding: 165px 0 0;
+  background: wheat;
+  &__content{
+    display: flex;
+    width: 100%;
+  }
+  &__right{
+    width: 45%;
+  }
+  &__left{
+    width: 55%;
+  }
+  &__title{
+    margin-top: 119px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #363853;
+    &-text{
+      color: $orange;
+    }
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    padding: 30px 0;
+  }
+  &__link{
+    text-decoration: none;
+    &-two{
+      margin-left: 35px;
+    }
+  }
+  &__img1{
+    position: relative;
+    margin-left: 223px;
+    z-index: 2;
+  }
+  &__img2{
+    position: absolute;
+    margin-left: -408px;
+    z-index: 1;
+  }
+  &__img3{
+    position: absolute;
+    margin-left: -106px;
+    z-index: 1;
+  }
+}

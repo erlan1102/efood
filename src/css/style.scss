@@ -1,0 +1,36 @@
+@import "../libs/arrow/css/fontello.css";
+@import "../libs/fontello/css/fontello.css";
+
+@import "../fonts/Rubik/stylesheet.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  scroll-behavior: smooth;
+}
+.container{
+  padding: 0 10px;
+  max-width: 1231px;
+  width: 100%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #37383D;
+  &:hover{
+    color: coral;
+  }
+}
+$orange : #FF6838;
+@import "header";
+@import "first-screen";
+@import "category";
+@import "more";
+@import "restaurant";
+@import "mobile-app";
+@import "clients";
+@import "subscribe";
+@import "contacts";
+@import "media";

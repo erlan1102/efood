@@ -1,0 +1,70 @@
+.restaurant{
+  padding: 108px 0 0;
+  background: wheat;
+  &__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #363853;
+    display: flex;
+    justify-content: center;
+    &-text{
+      color: $orange;
+    }
+  }
+  &__box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+  }
+  &__item{
+    transition: .5s;
+    width: 361px;
+    height: 417px;
+    background-color: #fff;
+    border-radius: 53px 5px;
+    &-title{
+      margin: 22px 0 14px 20px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      color: #363853;
+    }
+    &:hover{
+      transition: .5s;
+      transform: scale(1.1);
+      position: relative;
+      z-index: 5;
+    }
+  }
+  &__card{
+    margin-top: 14px;
+    display: flex;
+    margin-left: 20px;
+    &-svg{
+      margin-top: 4px;
+    }
+    &-subtitle{
+      margin: 0 30px 0 8px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      color: #363853;
+      opacity: 0.9;
+    }
+    &-btn{
+      width: 79px;
+      height: 33px;
+      background: #FF7A50;
+      box-shadow: 0 5px 12px rgba(255, 104, 56, 0.19);
+      border-radius: 20px 20px 0 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
