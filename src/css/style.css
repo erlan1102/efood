@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "../libs/arrow/css/fontello.css";
 @import "../libs/fontello/css/fontello.css";
 @import "../fonts/Rubik/stylesheet.css";
 * {
@@ -233,6 +232,15 @@ a:hover {
 }
 .category__list_active {
   background-color: #FF6838;
+}
+.category__list_active > .category__list-img {
+  display: none;
+}
+.category__list_active > .category__list-img_active {
+  display: inline-block;
+}
+.category__list_active > .category__list-subtitle {
+  color: #FFFFFF;
 }
 .category__list-img {
   margin-right: 8px;

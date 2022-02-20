@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $('ul.category__menu').on('click', 'li:not(.category__list_active)', function() {
         $(this).addClass('category__list_active').siblings().removeClass('category__list_active')
